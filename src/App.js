@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <h1>Hi, I am a react app</h1>
       <p>This is really working</p>
-      <Person name="Himanshu" s />
+      <Person name="Himanshu" />
+      <Person name="Max"> My hobby is playing cricket.</Person>
     </div>
     // React.createElement(
     //   "div",
