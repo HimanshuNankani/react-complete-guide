@@ -1,8 +1,9 @@
 import React from "react";
+import "./Person.css";
 
 const person = (props) => {
   return (
-    <div>
+    <div className="Person">
       <p>
         I am {props.name}. I am {Math.floor(Math.random() * 30)} years old!
       </p>
